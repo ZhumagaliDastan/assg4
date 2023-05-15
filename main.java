@@ -28,6 +28,7 @@ public class Main {
             table.put(key, value);
         }
 
+        
         // Print the number of elements in each bucket again
         for (int i = 0; i < table.getSize(); i++) {
             int bucketSize = table.getBucketSize(i);
